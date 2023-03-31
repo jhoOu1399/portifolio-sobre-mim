@@ -1,22 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
-@media (max-width: 1230px) {
-    .cabecalho {
-        padding: 10%;
-    }
-    .cabecalho__menu {
-        justify-content: center;
-    }
-    .apresentacao {
-        display: flex;
-        flex-direction: column-reverse;
-        padding: 5%;
-    }
-    .apresentacao__conteudo {
-        width: auto;
-    }
-}
-
 :root {
     --cor-primaria: #000000;
     --cor-secundaria: #F6F6F6;
@@ -165,4 +148,21 @@ body {
     font-family: var(--fonte-secundaria);
     font-weight: 400;
     font-size: 1.5rem;
+}
+
+@media (max-width: 1230px) {
+    .cabecalho {
+        padding: 10%;
+    }
+    .cabecalho__menu {
+        justify-content: center;
+    }
+    .apresentacao {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo {
+        width: auto;
+    }
 }
